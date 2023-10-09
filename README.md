@@ -1,7 +1,6 @@
-# dsc-phase-3-project
-Solo project yet again
-Churn in Telecom
+# SyriaTel Churn Predictions
 
+```python
 import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
@@ -348,3 +347,4 @@ sorted(pflist,key = lambda x:x[1])
 Seems like the international plan and voicemail plan have the largest change between being, the states seem to have a big impact but I don't know how to interpret that with the data I have currently.  The amount of customer service calls also seems to add quite a bit of a chance for subscribers to churn.
 
 
+```
