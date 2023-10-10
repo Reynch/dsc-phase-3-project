@@ -1,5 +1,14 @@
 # SyriaTel Churn Predictions
 
+# Overview
+![Towers]((https://st.depositphotos.com/1968353/2536/i/450/depositphotos_25360787-stock-photo-communication-towers.jpg))
+
+Our dataset consists of 3333 entries from customers with different phone plans, usage rates of different services, and customer service calls as well as if they churned or not.
+
+# Bussiness Understanding
+We would like to use a Logistic Regression model to help predict which customers will churn so that we can identify and try to prevent churn.
+
+
 ```python
 import pandas as pd
 import numpy as np
