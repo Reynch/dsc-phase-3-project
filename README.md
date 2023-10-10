@@ -1,7 +1,7 @@
 # SyriaTel Churn Predictions
 
 # Overview
-![Towers]((https://st.depositphotos.com/1968353/2536/i/450/depositphotos_25360787-stock-photo-communication-towers.jpg))
+![Towers](https://st.depositphotos.com/1968353/2536/i/450/depositphotos_25360787-stock-photo-communication-towers.jpg?v09-10-2023)
 
 Our dataset consists of 3333 entries from customers with different phone plans, usage rates of different services, and customer service calls as well as if they churned or not.
 
@@ -9,30 +9,6 @@ Our dataset consists of 3333 entries from customers with different phone plans, 
 We would like to use a Logistic Regression model to help predict which customers will churn so that we can identify and try to prevent churn.
 
 
-```python
-import pandas as pd
-import numpy as np
-from matplotlib import pyplot as plt
-import seaborn as sns
-
-from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score, cross_validate
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler, OneHotEncoder, FunctionTransformer, PolynomialFeatures
-from sklearn.impute import SimpleImputer
-from sklearn.compose import ColumnTransformer,  make_column_selector as selector
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.metrics import plot_confusion_matrix, recall_score,\
-    accuracy_score, precision_score, f1_score, plot_roc_curve, classification_report
-
-from sklearn.dummy import DummyClassifier, DummyRegressor
-
-from imblearn.over_sampling import SMOTE
-from imblearn.pipeline import Pipeline as ImPipeline
-
-import warnings
-warnings.filterwarnings('ignore')
-```
 # Data
 
 
