@@ -16,12 +16,12 @@ The data is imbalanced marginally with 85.5% of the data being no churn and 14.5
 
 
 # Modeling
-![Cautious Model](https://github.com/Reynch/dsc-phase-3-project/blob/main/images/bestmodel1.pdf?)
+![Cautious Model](https://github.com/Reynch/dsc-phase-3-project/blob/main/images/bestmodel1.png?)
 
 My first model has a 90% accuracy and a 50% true positive rate. For example with a random sample of 100 Syria Tel users with 14 about to leave the company we would be able to find 7 cases of churn before they happen, misidentify 3 cases as churn when they would not actually leave the company and miss 7 cases of churn.
 
 
-![Aggressive Model](https://github.com/Reynch/dsc-phase-3-project/blob/main/images/bestmodel2.pdf?)
+![Aggressive Model](https://github.com/Reynch/dsc-phase-3-project/blob/main/images/bestmodel2.png?)
 
 My second model is a more aggressive model with an 86% accuracy and a 57% true positive rate. In this example we would be able to find 8 cases and only miss 6, however we would double the amount of individuals who were misidentified for churn.
 
